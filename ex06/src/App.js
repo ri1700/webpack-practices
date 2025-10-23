@@ -9,6 +9,4 @@ function App() {
     return App;
 }
 
-<div class="Header">Hello Webpack <img src="" /></div>
-
 export {App};

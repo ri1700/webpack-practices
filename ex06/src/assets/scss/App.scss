@@ -2,7 +2,7 @@
 // App.scss
 //
 
-@import "variables";
+@use "variables" as *;
 
 *, *:before, *:after {
   margin: 0;

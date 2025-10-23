@@ -4,15 +4,15 @@
   "description": "",
   "main": "dev-server.js",
   "scripts": {
-    "start": "npx webpack serve  --progress",
+    "start": "node dev-server",
     "build": "npx webpack"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "express": "^5.1.0",
     "webpack": "^5.102.1",
-    "webpack-cli": "^6.0.1",
-    "webpack-dev-server": "^5.2.2"
+    "webpack-cli": "^6.0.1"
   }
 }

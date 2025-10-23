@@ -11,7 +11,7 @@ $ npm i -D webpack webpack-cli webpack-dev-server
 2. NPM Scripting
 
   "scripts": {
-    "start": "npx webpack serve  --progress",
+    "start": "npx webpack serve --progress",
     "build": "npx webpack"
   }
 
